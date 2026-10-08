@@ -29,6 +29,14 @@ public class Cliente {
 		return nombre;
 	}
 	
+	public String getApellido() {
+		return apellido;
+	}
+	
+	public String getTelefono() {
+		return telefono;
+	}
+	
 	public void agregarCita(Cita cita) {
 		this.citas.add(cita);
 	}
